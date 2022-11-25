@@ -10,4 +10,14 @@ MySQL2, Sequelize, and Express. Naturally, SQL was used as the database, interac
 ## Demo
 https://drive.google.com/file/d/1rJM5DR62g6FR8t7SYlgiyz-OEKaBDcE5/view
 
-##
+## ScreenShot
+![Insomnia Screen Shot](/E-Commerce-Backend/assets/Insomnia%20snippet.JPG)
+
+## Install
+Installation instructions: npm i
+On MySQL CLI: run SOURCE db/schema.sql
+On CLI: run npm run seed
+Create an .env file in the root directory with three variables with your respective credentials: DB_NAME='database name' DB_USER='user name' DB_PASSWORD='SQL password'
+
+## Usage
+In Windows Command Processor/Terminal, run node server.js
